@@ -9,14 +9,11 @@ namespace WebApplication1.Data
         {
         }
 
-        // For Dev01 (Amin)
         public DbSet<Category> Categories { get; set; }
         public DbSet<Supplier> Suppliers { get; set; }
-
-        //for Dev04(omnya)
-
         public DbSet<Product> Products { get; set; }
         public DbSet<Sale> Sales { get; set; }
         public DbSet<SaleItem> SalesItems { get; set; }
+        public DbSet<SupplierProduct> SupplierProducts { get; set; }
     }
 }
